@@ -41,32 +41,46 @@
 
 ---
 
-<div
-  align="left"
-  <p ## DOCUMENTACIÓN.
-  * Código fuente.
-  * JavaDoc.
-  * JavaDoc con Neatbeans.
->
-  
+## DOCUMENTACIÓN.
+
+<table>
+  <tr>
+    <td width="40%" style="vertical-align:top;">
+      <ul>
+        <li>Código Fuente.</li>
+        <li>JavaDoc.</li>
+        <li>JavaDoc con Netbeans.</li>
+      </ul>
+    </td>
+    <td width="40%">
+      <img src="https://javalangnullpointer.wordpress.com/wp-content/uploads/2007/04/add_in_editor.gif" alt= "Git" width="100%">
+    </td>
+  </tr>
+</table>
 
 ---
 
 ## REFACTORIZACIÓN.
 
-<img 
-  src="https://cdn-icons-png.flaticon.com/512/2621/2621041.png" 
-  width="350"
-  height="200"
-  align="right">
-
-* Cuando refactorizar. Code Smells.
-* Refactorización en Netbeans.
-* Patrones de factorización.
-
+<table>
+  <tr>
+    <td width="40%" style="vertical-align:top;">
+      <ul>
+        <li>Cuando refactorizar. Code Smells.</li>
+        <li>Refactorización en Netbeans.</li>
+        <li>Patrones de factorización.</li>
+      </ul>
+    </td>
+    <td width="40%">
+      <img src="https://cdn-icons-png.flaticon.com/512/2621/2621041.png" alt= "Git" width="100%">
+    </td>
+  </tr>
+</table>
+ 
 ---
+
 ## INFORMACIÓN ADICIONAL
 * [David Mengual](https://github.com/mengualbarragandavid-wq)
-* [David Pacheco]()
-* [Alejandro Ramírez]()
-* [Sergio Alcántara]()
+* [David Pacheco](https://github.com/Themyth0)
+* [Alejandro Ramírez](https://github.com/ARNieves)
+* [Sergio Alcántara](https://github.com/seralcesc)
