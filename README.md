@@ -3,15 +3,21 @@
 
 <h1 align="center">ÍNDICE</h1>
 
+## INTRODUCCIÓN.
+  *  Avance y dominio de nuevas herramientas.
+  *  Un proyecto implica una gran capacidad del desarrollador para justificar cada decisión que toma.
+
 ## CONTROL DE VERSIONES.
 <table>
   <tr>
     <td width="60%" style="vertical-align:top;">
       <ul>
-        <li>Cómo funciona un control de versiones.</li>
-        <li>Tipos de sistemas de control de versiones.</li>
-        <li>Terminología.</li>
-        <li>Buenas Prácticas.</li>
+        <li>Definición.</li>
+           	1. Esqueleto de cualquier proyecto de ingeniería de software moderno.  2. Registro histórico inmutable.	
+        <li>Evolución.</li>
+				1. Copias manuales en discos duros, conlleva pérdida de datos.
+				2. 
+        <li>Funcionamiento.</li>
       </ul>
     </td>
     <td width="40%">
@@ -79,7 +85,7 @@
  
 ---
 
-## INFORMACIÓN ADICIONAL
+## TRABAJO REALIZADO POR:
 * [David Mengual](https://github.com/mengualbarragandavid-wq)
 * [David Pacheco](https://github.com/Themyth0)
 * [Alejandro Ramírez](https://github.com/ARNieves)
