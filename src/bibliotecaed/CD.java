@@ -9,7 +9,15 @@ package bibliotecaed;
  * @author usuario
  */
 public class CD extends Audiovisual {
-    private String artista;
-    private int pistas;
-    //Me cago en diez
+    private final String ARTISTA;
+    private final int PISTAS;
+
+    public CD(String TITULO, int FECHAPUB, String ISAN, int DURACION, String ARTISTA, int PISTAS) {
+        super(TITULO, FECHAPUB, ISAN, DURACION);
+        this.ARTISTA = ARTISTA;
+        this.PISTAS = PISTAS;
+    }
+    
+    
+    
 }
