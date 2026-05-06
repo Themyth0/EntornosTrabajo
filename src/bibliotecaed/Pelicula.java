@@ -4,14 +4,24 @@
  */
 package bibliotecaed;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author usuario
  */
 public class Pelicula extends Audiovisual {
     
-    private String director;
+    private final String DIRECTOR;
     private boolean prestado;
     private ArrayList ListaPrestamos = new ArrayList();
+
+    public Pelicula(String TITULO, int FECHAPUB, String ISAN, int DURACION, String DIRECTOR) {
+        super(TITULO, FECHAPUB, ISAN, DURACION);
+        this.DIRECTOR = DIRECTOR;
+        this.prestado = false;
+    }
+    
+    
     
 }
