@@ -12,12 +12,37 @@
   <tr>
     <td width="60%" style="vertical-align:top;">
       <ul>
-        <li>Definición.</li>
-           	1. Esqueleto de cualquier proyecto de ingeniería de software moderno.  2. Registro histórico inmutable.	
-        <li>Evolución.</li>
-				1. Copias manuales en discos duros, conlleva pérdida de datos.
-				2. 
-        <li>Funcionamiento.</li>
+        <li><strong>Definición.</strong></li>
+		  <ol>
+           <li>Esqueleto de cualquier proyecto de ingeniería de software moderno.  </li>	 
+			<li>Registro histórico inmutable.</li>
+		  </ol>
+        <li><strong>Evolución.</strong></li>
+		  <ol>
+			  <li>Copias manuales en discos duros, conlleva pérdida de datos.</li>
+			  <li>Nuevo concepto de servido único, pero si se caía el servidor o no había conexión a internet, el desarrollo se detenía.</li>
+			  <li>Sistemas de Control de Versiones Distribuidos (DVCS) liderado por Git. Cada desarrollador dispone de un clon del repositorio.</li>
+		  </ol>
+<li><ol><strong>Funcionamiento.</strong></li>
+		  	<li>Detecta y evita problemas.</li>
+		  	<li>Los programadores trabajan sobre el mismo archivo.</li>
+			</ol>
+		  <ol>
+			  <ol>FUNCIONES.
+			  	<li>Seguimiento de cambios.</li>
+			  	<li>Compartir trabajo de forma simultánea.</li>
+			  	<li>Volver atrás a cualquier punto del desarrollo.</li>
+			  	<li>Quién y cuándo modificó el código.</li>
+			  	<li>Historial de cambios.</li>
+				  </ol>
+		  </ol>
+		<ol>
+			  <ol>TIPOS DE CONTROL DE VERSIONES.
+			  	<li>Sistemas Locales.</li>
+			  	<li>Sistemas Centralizados.</li>
+			  	<li>Sistemas Distribuidos.</li>
+				  </ol>
+		  </ol>
       </ul>
     </td>
     <td width="40%">
