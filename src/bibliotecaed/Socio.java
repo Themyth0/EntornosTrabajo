@@ -4,6 +4,8 @@
  */
 package bibliotecaed;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author usuario
@@ -11,5 +13,5 @@ package bibliotecaed;
 public class Socio {
     private String DNI;
     private String NOMBRE;
-    private ArrayList ListaPrestamos;
+    private ArrayList ListaPrestamos = new ArrayList();
 }
