@@ -11,4 +11,5 @@ package bibliotecaed;
 public class CD extends Audiovisual {
     private String artista;
     private int pistas;
+    //Me cago en diez
 }
