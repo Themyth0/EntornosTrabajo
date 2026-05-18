@@ -28,6 +28,7 @@ public class Pelicula extends Audiovisual implements Prestable {
        this.prestado = true;
        LocalDate currentDate = LocalDate.now();
        listaPrestamos.add(currentDate+" "+s.getNOMBRE()+" SALIDA BIBLIOTECA");
+       s.getListaPrestamos().add(currentDate+" "+this.getTITULO()+" SALIDA BIBLIOTECA");
     }
 
     @Override
@@ -35,6 +36,7 @@ public class Pelicula extends Audiovisual implements Prestable {
         this.prestado = false;
         LocalDate currentDate = LocalDate.now();
         listaPrestamos.add(currentDate+" "+s.getNOMBRE()+" RETORNO BIBLIOTECA");
+        s.getListaPrestamos().add(currentDate+" "+this.getTITULO()+" RETORNO BIBLIOTECA");
     }
 
     @Override
@@ -52,7 +54,7 @@ public class Pelicula extends Audiovisual implements Prestable {
     
      @Override
     public String datos() {
-        return prestado ? super.datos()+"\nDirector: "+DIRECTOR+"\nEn la biblioteca: No":super.datos()+"\nEn la biblioteca: Sí";
+        return prestado ? super.datos()+"\nDirector: "+DIRECTOR+"\nEn la biblioteca: No":super.datos()+"\nDirector: "+DIRECTOR+"\nEn la biblioteca: Sí";
     }
     
 }

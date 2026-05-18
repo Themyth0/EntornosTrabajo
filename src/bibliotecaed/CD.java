@@ -8,7 +8,7 @@ package bibliotecaed;
  *
  * @author usuario
  */
-public abstract class CD extends Audiovisual {
+public class CD extends Audiovisual {
     private final String ARTISTA;
     private final int PISTAS;
 
