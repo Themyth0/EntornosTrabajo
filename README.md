@@ -37,10 +37,15 @@
 				  </ol>
 		  </ol>
 		<ol>
-			  <ol>TIPOS DE CONTROL DE VERSIONES.
-			  	<li>Sistemas Locales.</li>
-			  	<li>Sistemas Centralizados.</li>
-			  	<li>Sistemas Distribuidos.</li>
+			  <ol>TERMINOLOGÍA.
+			  	<li>Repositorio.</li>
+			  	<li>Rama.</li>
+			  	<li>Merge.</li>
+				<li>Conflicto.</li>
+				<li>Commit.</li>
+				<li>Head.</li>
+				<li>Tag.</li>
+				<li>Sincronización.</li>
 				  </ol>
 		  </ol>
       </ul>
