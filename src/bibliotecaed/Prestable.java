@@ -9,5 +9,7 @@ package bibliotecaed;
  * @author usuario
  */
 public interface Prestable {
-    
+    void presta(Socio s);
+    void devuelve(Socio s);
+    boolean estaPrestado();
 }

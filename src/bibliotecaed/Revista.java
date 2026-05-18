@@ -9,5 +9,12 @@ package bibliotecaed;
  * @author usuario
  */
 public class Revista extends Papel {
-    private int numeropub;
+    private final int NUMEROPUB;
+
+    public Revista(String TITULO, int FECHAPUB, String ISBN, int PAGINAS, int NUMEROPUB) {
+        super(TITULO, FECHAPUB, ISBN, PAGINAS);
+        this.NUMEROPUB = NUMEROPUB;
+    }
+    
+    
 }

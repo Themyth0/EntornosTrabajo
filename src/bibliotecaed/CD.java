@@ -8,7 +8,7 @@ package bibliotecaed;
  *
  * @author usuario
  */
-public class CD extends Audiovisual {
+public abstract class CD extends Audiovisual {
     private final String ARTISTA;
     private final int PISTAS;
 
@@ -16,6 +16,11 @@ public class CD extends Audiovisual {
         super(TITULO, FECHAPUB, ISAN, DURACION);
         this.ARTISTA = ARTISTA;
         this.PISTAS = PISTAS;
+    }
+    
+    @Override
+    public String datos() {
+        return super.datos()+"\nArtista: "+ARTISTA+"\nPistas: "+PISTAS;
     }
     
     

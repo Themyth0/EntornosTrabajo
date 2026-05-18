@@ -4,6 +4,7 @@
  */
 package bibliotecaed;
 
+import java.time.LocalDate;
 import java.util.ArrayList;
 
 /**
@@ -13,7 +14,7 @@ import java.util.ArrayList;
 public class Libro extends Papel implements Prestable {
     private final String AUTOR;
     private boolean prestado;
-    private ArrayList ListaPrestamos = new ArrayList();
+    private ArrayList listaPrestamos = new ArrayList();
 
     public Libro(String TITULO, int FECHAPUB, String ISBN, int PAGINAS, String AUTOR) {
         super(TITULO, FECHAPUB, ISBN, PAGINAS);
@@ -21,6 +22,36 @@ public class Libro extends Papel implements Prestable {
         this.prestado = false;
     }
     
+    @Override
+    public void presta(Socio s) {
+       this.prestado = true;
+       LocalDate currentDate = LocalDate.now();
+       listaPrestamos.add(currentDate+" "+s.getNOMBRE()+" SALIDA BIBLIOTECA");
+    }
+
+    @Override
+    public void devuelve(Socio s) {
+        this.prestado = false;
+        LocalDate currentDate = LocalDate.now();
+        listaPrestamos.add(currentDate+" "+s.getNOMBRE()+" RETORNO BIBLIOTECA");
+    }
+
+    @Override
+    public boolean estaPrestado() {
+        return prestado;
+    }
     
+    public void listarPrestamos(){
+        System.out.println("Préstamos de "+this.getTITULO()+"\n");
+        for (Object l : listaPrestamos) {
+            System.out.println(l);
+        }
+        System.out.println("");
+    }
+    
+    @Override
+    public String datos() {
+        return prestado ? super.datos()+"\nAutor: "+AUTOR+"\nEn la biblioteca: No":super.datos()+"\nEn la biblioteca: Sí";
+    }
     
 }

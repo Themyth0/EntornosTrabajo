@@ -6,12 +6,19 @@ package bibliotecaed;
 
 import java.util.ArrayList;
 
-/**
- *
- * @author usuario
- */
 public class Socio {
-    private String DNI;
-    private String NOMBRE;
+    private final String DNI;
+    private final String NOMBRE;
     private ArrayList ListaPrestamos = new ArrayList();
+
+    public Socio(String DNI, String NOMBRE) {
+        this.DNI = DNI;
+        this.NOMBRE = NOMBRE;
+    }
+
+    public String getNOMBRE() {
+        return NOMBRE;
+    }
+    
+    
 }
