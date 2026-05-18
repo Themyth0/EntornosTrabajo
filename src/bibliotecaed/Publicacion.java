@@ -21,4 +21,8 @@ public abstract class Publicacion {
         return TITULO+"\nAño de publicación: "+FECHAPUB;
     }
     
+    public String getTITULO() {
+        return TITULO;
+    } 
+    
 }

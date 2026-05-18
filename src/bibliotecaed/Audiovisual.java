@@ -8,7 +8,7 @@ package bibliotecaed;
  *
  * @author usuario
  */
-public class Audiovisual extends Publicacion {
+public abstract class Audiovisual extends Publicacion {
     
     private final String ISAN;
     private final int DURACION;
@@ -19,6 +19,9 @@ public class Audiovisual extends Publicacion {
         this.DURACION = DURACION;
     }
     
-    
+    @Override
+    public String datos() {
+        return super.datos()+"\nISAN: "+ISAN+"\nDuración: "+DURACION;
+    }
     
 }

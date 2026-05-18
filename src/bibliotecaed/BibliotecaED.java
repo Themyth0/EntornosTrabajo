@@ -9,12 +9,9 @@ package bibliotecaed;
  * @author Alejandro Ramirez Nieves
  */
 public class BibliotecaED {
-
-    /**
-     * @param args the command line arguments
-     */
+    
     public static void main(String[] args) {
-        //me cago en la puta
+        
     }
     
 }

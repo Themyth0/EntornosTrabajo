@@ -18,6 +18,9 @@ public class Papel extends Publicacion {
         this.PAGINAS = PAGINAS;
     }
     
-    
+    @Override
+    public String datos() {
+        return super.datos()+"\nISBN: "+ISBN+"\nPáginas: "+PAGINAS;
+    }
     
 }
