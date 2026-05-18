@@ -9,7 +9,7 @@ import java.util.ArrayList;
 public class Socio {
     private final String DNI;
     private final String NOMBRE;
-    private ArrayList ListaPrestamos = new ArrayList();
+    private ArrayList listaPrestamos = new ArrayList();
 
     public Socio(String DNI, String NOMBRE) {
         this.DNI = DNI;
@@ -18,6 +18,18 @@ public class Socio {
 
     public String getNOMBRE() {
         return NOMBRE;
+    }
+
+    public ArrayList getListaPrestamos() {
+        return listaPrestamos;
+    }
+        
+    public void listarPrestamos(){
+        System.out.println("Préstamos de "+this.getNOMBRE()+"\n");
+        for (Object l : listaPrestamos) {
+            System.out.println(l);
+        }
+        System.out.println("");
     }
     
     

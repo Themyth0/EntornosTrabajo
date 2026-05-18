@@ -51,7 +51,7 @@ public class Libro extends Papel implements Prestable {
     
     @Override
     public String datos() {
-        return prestado ? super.datos()+"\nAutor: "+AUTOR+"\nEn la biblioteca: No":super.datos()+"\nEn la biblioteca: Sí";
+        return prestado ? super.datos()+"\nAutor: "+AUTOR+"\nEn la biblioteca: No":super.datos()+"\nAutor: "+AUTOR+"\nEn la biblioteca: Sí";
     }
     
 }
