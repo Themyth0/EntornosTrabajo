@@ -1,8 +1,4 @@
-# PROYECTO ENTORNOS DE DESARROLLO
-
----
-
-<h1 align="center">ÍNDICE</h1>
+<h1 align="center">PROYECTO ENTORNOS DE DESARROLLO</h1>
 
 <!-- BADGES PROFESIONALES -->
 <p align="center">
@@ -13,8 +9,8 @@
   <img src="https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white" alt="Markdown" />
 </p>
 
-<a>https://github.com/Themyth0/EntornosTrabajo</a>
 ---
+<h2 align="center">CONTENIDO</h2>
 
 ## INTRODUCCIÓN.
 * Avance y dominio de nuevas herramientas.
@@ -260,6 +256,10 @@
             <li><strong>Paso Dos:</strong> Verificar lo que hemos hecho realizando pruebas unitarias.</li>
             <li><strong>Paso Tres:</strong> Documentar y hacer Commit. Una vez se ha refactorizado, se actualizará el Javadoc y se hará un commit en el repositorio.</li>
           </ol>
+        </li>
+        <hr>
+        <li><strong>CÓDIGO SUCIO Y COMPLEJIDAD INNECESARIA.</strong>
+          <p>Fase inicial del proyecto con métodos excesivamente largos, variables con nombres poco descriptivos y lógica duplicada entre las clases de Libros y Películas. Situación que dificultaba el mantenimiento y aumentaba la complejidad del código. Mediante refactorización, se simplificó la estructura, se reutilizó la lógica común y se mejoró la legibilidad y mantenibilidad del sistema.</p>
         </li>
       </ul>
     </td>
