@@ -19,7 +19,7 @@ public class BibliotecaED {
         ArrayList<Publicacion> publicaciones = new ArrayList<>();
         ArrayList<Socio> socios = new ArrayList<>();
         boolean continuar = true;
-        double opcion, opcion2, opcion3;
+        int opcion, opcion2, opcion3;
         Scanner sc = new Scanner(System.in);
         sc.useLocale(Locale.US);
         
