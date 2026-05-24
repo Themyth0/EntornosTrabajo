@@ -32,5 +32,9 @@ public class Socio {
         System.out.println("");
     }
     
+    public String datos(){
+        return "Nombre: "+NOMBRE+"\nDNI: "+DNI;
+    }
+    
     
 }
