@@ -16,6 +16,7 @@ public class CD extends Audiovisual {
         super(TITULO, FECHAPUB, ISAN, DURACION);
         this.ARTISTA = ARTISTA;
         this.PISTAS = PISTAS;
+        
     }
     
     @Override
